@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var condition = false;
     var index = localemail.indexOf(lemail);
     if (index !== -1 && lemail === localemail[index] && lpass === localpass[index]) {
-      document.querySelector("#LoginSignup").style.top = "-100%";
+      document.querySelector("#LoginSignup").style.top = "-200%";
       document.querySelector("#login").style.display = "none";
       document.querySelector(".profile").style.display = "flex";
 
