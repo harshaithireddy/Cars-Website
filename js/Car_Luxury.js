@@ -737,7 +737,7 @@ function Brands_itm(){
     if(suB==0){
         brIt.style.display="block";
         brIt.style.display="flex";
-        brIt.style="z-index: 9999";
+        // brIt.style="z-index: 9999";
         suB=1;
     }
     else{
