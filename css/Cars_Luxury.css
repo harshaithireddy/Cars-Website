@@ -498,9 +498,6 @@
       position: absolute;
       bottom: 0;
     }
-    .slick-dots {
-      display: none;
-    }
   }
   
   @media (max-width: 768px) {
@@ -541,6 +538,12 @@
       margin-top: 35px;
     }
   }
+
+@media screen and (max-width: 800px) {
+    .slick-dots {
+      display: none;
+    }    
+}
    
   
   
