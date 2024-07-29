@@ -1376,3 +1376,8 @@ body{
     align-items: center;
     margin-top: 10px;
 }
+.logo-2 {
+    width: 180px !important;
+    height: 180px !important;
+}
+
