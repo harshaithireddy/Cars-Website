@@ -1361,9 +1361,18 @@ body{
 
 
 
-#ri-close-large-line {
+/* #ri-close-large-line {
     z-index: 999;
 }
 #ri-close-line {
     z-index: 999;
+} */
+
+.logo-1 {
+    width: 130px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
