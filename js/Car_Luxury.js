@@ -816,7 +816,7 @@ function Filter_fun_C(Brands_Name,indexOfInput){
         if(DivExcit==0){
             NoFliter=document.getElementsByClassName('Filter_Not_Aply')[0];
             NoFliter.style.display="block";
-            filterDiv.style = "z-index: 999999";
+            // filterDiv.style = "z-index: 999999";
         }
     }
 }
