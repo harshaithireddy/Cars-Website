@@ -498,6 +498,9 @@
       position: absolute;
       bottom: 0;
     }
+    .slick-dots {
+      display: none;
+    }
   }
   
   @media (max-width: 768px) {
@@ -569,7 +572,7 @@
   }
 
   .filter_divison a {
-    font-size: 10px;
+    font-size: 20px !important;
   }
   .filter_items{
     height: fit-content;
@@ -658,7 +661,7 @@
     }
 
     .filter_divison a {
-      font-size: 10px !important;
+      font-size: 15px !important;
     }
     
   }
