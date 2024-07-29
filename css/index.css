@@ -442,7 +442,7 @@ p {
     top: 0;
     padding: 8vmax 10vmax;
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.228);
+    border-left: 1px solid rgba(0, 0, 0, 0.228);
     gap: 5vw;
     transition: all ease-out 0.4s;
     z-index: 9999;
@@ -1235,8 +1235,9 @@ p {
 }
 
 .log-out {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(70, 0, 0);
+    font-weight: 600;
     cursor: pointer;
 }
 #str{
