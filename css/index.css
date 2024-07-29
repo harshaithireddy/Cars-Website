@@ -1240,7 +1240,18 @@ p {
     font-weight: 600;
     cursor: pointer;
 }
+#LoginSignup button{
+    background-color: black;
+    color: white;
+}
+.logina{
+    color: #000 !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #str{
+    height: 300px;
     display: grid;
     place-items: center;
 }
