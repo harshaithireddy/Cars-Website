@@ -351,7 +351,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var username = localStorage.getItem("username");
 
   if (isLoggedIn === "true" && username) {
-    document.querySelector("#LoginSignup").style.top = "-100%";
+    document.querySelector("#LoginSignup").style.top = "-150%";
     document.querySelector("#login").style.display = "none";
     document.querySelector(".profile").style.display = "flex";
     document.querySelector(".name").innerHTML = username;
@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var condition = false;
     var index = localemail.indexOf(lemail);
     if (index !== -1 && lemail === localemail[index] && lpass === localpass[index]) {
-      document.querySelector("#LoginSignup").style.top = "-200%";
+      document.querySelector("#LoginSignup").style.top = "-150%";
       document.querySelector("#login").style.display = "none";
       document.querySelector(".profile").style.display = "flex";
 
