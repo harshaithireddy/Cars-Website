@@ -541,6 +541,7 @@
 
 @media screen and (max-width: 800px) {
     .slick-dots {
+      color: white;
       display: none;
     }    
 }
