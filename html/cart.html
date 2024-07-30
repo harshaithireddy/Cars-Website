@@ -296,6 +296,11 @@
         localStorage.setItem("cartCars", JSON.stringify(cartCars));
         loadCart();
       }
+
+      var b = document.getElementsByClassName('buy-now')[0];
+      b.onclick = function() {
+        window.location.href = 'buy_car.html';
+      }
     </script>
   </body>
 </html>
