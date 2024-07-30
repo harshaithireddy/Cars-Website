@@ -295,6 +295,7 @@
         cartCars = cartCars.filter((car) => car.id !== id);
         localStorage.setItem("cartCars", JSON.stringify(cartCars));
         loadCart();
+        updateCartImage(id);
       }
 
       var b = document.getElementsByClassName('buy-now')[0];
