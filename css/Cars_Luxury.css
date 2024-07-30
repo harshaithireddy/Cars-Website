@@ -838,9 +838,9 @@ section{
 
 } */
 .box img {
-        width: 180px !important;
-        height: 180px !important;
-      }
+    width: 180px !important;
+    height: 180px !important;
+}
 
 .buy {
   cursor: pointer;
