@@ -855,3 +855,9 @@ function Filter_fun_P(Price_Name,indexOfInput){
         }
     }
 }
+
+var buy = document.getElementsByClassName("buy")[0];
+
+buy.onclick = function() {
+    window.location.href = 'buy_car.html';
+}
