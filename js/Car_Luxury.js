@@ -680,6 +680,7 @@ function cartFun(index, cartIcon) {
 function updateFavorites() {
     var favorites = arr.filter(car => car.favorite);
     localStorage.setItem('favoriteCars', JSON.stringify(favorites));
+    updateFavoriteImage();
 }
 
 function addToCart(id) {
@@ -702,9 +703,22 @@ function removeFromCart(id) {
 function updateCart() {
     var cartCars = JSON.parse(localStorage.getItem('cartCars')) || [];
     localStorage.setItem('cartCars', JSON.stringify(cartCars));
+    updateCartImage();
 }
 
+function updateFavoriteImage() {
+    arr.forEach((car, index) => {
+        var fav = document.getElementsByClassName("fav")[0].getElementsByTagName("img")[0];
+        fav.src = car.favorite ? car.fav1 : car.fav2;
+    });
+}
 
+function updateCartImage() {
+    arr.forEach((car, index) => {
+        var cart = document.getElementsByClassName("cartt")[0].getElementsByTagName("img")[0];
+        cart.src = car.cart ? "../img/Stars-cart/shopping-cart.svg" : "../img/Stars-cart/cart-check-fill.svg";
+    });
+}
 
 // FILTER JS
 // 
